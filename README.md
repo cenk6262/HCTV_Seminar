@@ -76,6 +76,7 @@ The detailed definitions of the arguments can be found by:
 python3 main.py -h
 ```
 
-## I also Implemented a Script that turns a Cardiac Mat into a Video. Just change the Path in Line 8 as you wish.
+## I also Implemented a Script that turns a Cardiac Mat into a Video. 
+Just change the Path in Line 8 in the script Create_vid.py as you wish.
 The resulting video is also added in this Git Library as cardiac_one_coil_per_frame.mp4
 
