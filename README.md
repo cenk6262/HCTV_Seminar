@@ -4,7 +4,7 @@
 * PyTorch 2.0.0
 * torchkbnufft 1.4.0
 * [tiny-cuda-nn 1.7](https://github.com/NVlabs/tiny-cuda-nn)
-  -tiny cuda instalation guide:
+  * tiny cuda instalation guide:
     Begin by cloning this repository and all its submodules using the following command:
 ```sh
 $ git clone --recursive https://github.com/nvlabs/tiny-cuda-nn
