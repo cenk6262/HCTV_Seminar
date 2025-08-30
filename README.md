@@ -45,7 +45,12 @@ tiny-cuda-nn/bindings/torch$ python setup.py install
 ## 2. Sample Data
 Download the sample data from [https://drive.google.com/file/d/1DIdtHcHUDEqx-qL4930-pz9mxCI8OYMR/view?usp=sharing](https://drive.google.com/file/d/1DIdtHcHUDEqx-qL4930-pz9mxCI8OYMR/view?usp=sharing) and put it into the root directory
 
-## 3. Run the Demos
+## 3. Depth Reduction
+If your machines graphics card is bottlenecking you can reduce the model depth in each "params" dict of every main method.
+In this example we reduced the "n_hidden_layers" from 5 to 3 and the "log2_hashmap_size" from 24 to 23.
+With these modifications the script is using around 6.5Gb of Vram instead of around 8GB but still maintaining similar accuracy.
+
+## 4. Run the Demos
 ### To run the basic reconstruction demo, please use the following code:  
 ```python
 python3 main.py -g 0 -s 13 -r -m
